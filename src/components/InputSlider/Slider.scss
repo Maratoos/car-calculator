@@ -1,0 +1,89 @@
+@import url(../src/assets/fonts/fonts.scss);
+
+@mixin nekstFont {
+    font-family: 'Nekst';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #575757;
+}
+
+@mixin numberInputs {
+    outline: none;
+    background: #F3F3F4;
+    border-radius: 16px;
+    border: 0;
+    @include nekstFont;
+}
+
+@mixin percentInput {
+    font-family: 'Nekst';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 120%;
+    color: #575757;
+}
+
+.calc__content-item {
+    width: 33.3%;
+    margin-right: 32px;
+    p {   
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #575757;
+        margin-bottom: 24px;
+    }
+    &:first-child {
+        margin-left: 44px;
+    }
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0; 
+    }
+    .input-summary {
+        display: flex;
+        justify-content: space-between;
+        background: #F3F3F4;
+        border-radius: 16px;
+        .none-percent-input {
+            @include numberInputs;
+            width: 50%;
+            padding: 16px 0 16px 24px;
+        }
+        .none-percent-p {
+            @include nekstFont;
+            margin: 15px 24px 0 0;
+        }
+        .percent-input {
+            @include percentInput;
+            outline: none;
+            background: #F3F3F4;
+            border-radius: 16px;
+            border: 0;
+            width: 50%;
+            padding: 19px 0 22px 0;
+            text-align: right;
+        }
+        .percent-p {
+            @include nekstFont;
+            margin: 15px 0 0 24px;
+        }
+        .percent-symbol {
+            @include percentInput;
+            margin-right: 30px;
+        }
+    }
+    .slider {
+        position: relative;
+        top: -15px;
+        left: 20px;
+        width: 90%;
+        color: #FF9514;
+    }
+}

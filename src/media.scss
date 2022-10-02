@@ -1,0 +1,115 @@
+@media (max-width: 1024px)  {
+    .calc {
+        width: 1024px;
+        &__header {
+            margin: 100px 0 44px 48px;
+        }
+        .calc__content {
+            flex-direction: column;
+            &-item {
+                margin-left: 40px;
+                width: 90%;
+                .input-summary {
+                    width: 100%;
+                    .percent-input {
+                        margin: 0 0 0 220px;
+                    }
+                }
+                .slider {
+                    width: 95%;
+                }
+            }
+        }
+        &__footer {
+            display: flex;
+            flex-wrap: wrap;
+            &-item {
+                width: 45%;
+                &:last-child {
+                    margin: 0 0 30px 47px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px)  {
+    .calc {
+        width: 768px;
+        &__header {
+            margin: 100px 0 44px 48px;
+        }
+        .calc__content {
+            &-item {
+                margin-left: 40px;
+                width: 90%;
+                .input-summary {
+                    width: 100%;
+                    .percent-input {
+                        margin: 0 0 0 220px;
+                    }
+                }
+                .slider {
+                    width: 95%;
+                }
+            }
+        }
+        &__footer {
+            display: flex;
+            flex-wrap: wrap;
+            &-item {
+                width: 45%;
+                &:last-child {
+                    margin: 0 0 30px 47px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 420px)  {
+    .calc {
+        width: 420px;
+        &__header {
+            width: 279px;
+            height: 124px;
+            margin: 44px 0 32px 50px;
+            h1 {
+                font-size: 38px;
+            }
+        }
+        .calc__content {
+            &-item {
+                .input-summary {
+                    width: 90%;
+                    .percent-input {
+                        margin: 0;
+                    }
+                }
+                .slider {
+                    width: 80%;
+                }
+            }
+        }
+        &__footer {
+            &-item {
+                width: 100%;
+                margin-left: 50px;
+                p {
+                    font-size: 26px;
+                    line-height: 26px;
+                    color: #333333;
+                }
+                .primary {
+                    width: 280px;
+                    height: 60px;
+                    font-size: 22px;
+                    line-height: 20px;
+                }
+            }
+            &-item:first-child {
+                margin-left: none;
+            }
+        }
+    }
+}

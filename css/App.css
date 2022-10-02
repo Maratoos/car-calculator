@@ -1,0 +1,56 @@
+@import url(../src/assets/fonts/fonts.scss);
+.container {
+  display: flex;
+  justify-content: center;
+  max-height: 100vh;
+}
+
+.calc {
+  width: 1440px;
+  height: 100%;
+}
+.calc__header {
+  width: 753px;
+  height: 100px;
+  margin: 213px 0 32px 47px;
+}
+.calc__header h1 {
+  font-family: "Nekst";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 90%;
+  color: #111111;
+}
+.calc__content {
+  display: flex;
+}
+.calc__footer {
+  display: flex;
+}
+.calc__footer-item {
+  width: 33%;
+}
+.calc__footer-item:first-child {
+  margin-left: 47px;
+}
+.calc__footer-item:last-child {
+  margin-top: 35px;
+}
+.calc__footer-item h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #575757;
+}
+.calc__footer-item p {
+  font-family: "Nekst";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 90%;
+  color: #575757;
+  margin-top: -10px;
+}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,105 @@
+@media (max-width: 1024px) {
+  .calc {
+    width: 1024px;
+  }
+  .calc__header {
+    margin: 100px 0 44px 48px;
+  }
+  .calc .calc__content {
+    flex-direction: column;
+  }
+  .calc .calc__content-item {
+    margin-left: 40px;
+    width: 90%;
+  }
+  .calc .calc__content-item .input-summary {
+    width: 100%;
+  }
+  .calc .calc__content-item .input-summary .percent-input {
+    margin: 0 0 0 220px;
+  }
+  .calc .calc__content-item .slider {
+    width: 95%;
+  }
+  .calc__footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .calc__footer-item {
+    width: 45%;
+  }
+  .calc__footer-item:last-child {
+    margin: 0 0 30px 47px;
+  }
+}
+@media (max-width: 768px) {
+  .calc {
+    width: 768px;
+  }
+  .calc__header {
+    margin: 100px 0 44px 48px;
+  }
+  .calc .calc__content-item {
+    margin-left: 40px;
+    width: 90%;
+  }
+  .calc .calc__content-item .input-summary {
+    width: 100%;
+  }
+  .calc .calc__content-item .input-summary .percent-input {
+    margin: 0 0 0 220px;
+  }
+  .calc .calc__content-item .slider {
+    width: 95%;
+  }
+  .calc__footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .calc__footer-item {
+    width: 45%;
+  }
+  .calc__footer-item:last-child {
+    margin: 0 0 30px 47px;
+  }
+}
+@media (max-width: 420px) {
+  .calc {
+    width: 420px;
+  }
+  .calc__header {
+    width: 279px;
+    height: 124px;
+    margin: 44px 0 32px 50px;
+  }
+  .calc__header h1 {
+    font-size: 38px;
+  }
+  .calc .calc__content-item .input-summary {
+    width: 90%;
+  }
+  .calc .calc__content-item .input-summary .percent-input {
+    margin: 0;
+  }
+  .calc .calc__content-item .slider {
+    width: 80%;
+  }
+  .calc__footer-item {
+    width: 100%;
+    margin-left: 50px;
+  }
+  .calc__footer-item p {
+    font-size: 26px;
+    line-height: 26px;
+    color: #333333;
+  }
+  .calc__footer-item .primary {
+    width: 280px;
+    height: 60px;
+    font-size: 22px;
+    line-height: 20px;
+  }
+  .calc__footer-item:first-child {
+    margin-left: none;
+  }
+}/*# sourceMappingURL=media.css.map */

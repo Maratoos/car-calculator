@@ -1,0 +1,58 @@
+@import url(../src/assets/fonts/fonts.scss);
+
+@mixin nekstFont {
+    font-family: 'Nekst';
+    font-style: normal;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-height: 100vh;
+}
+.calc {
+    width: 1440px;
+    height: 100%;
+    &__header {
+        width: 753px;
+        height: 100px;
+        margin: 213px 0 32px 47px;
+        h1 {
+            @include nekstFont;
+            font-size: 54px;
+            line-height: 90%;
+            color: #111111;
+        } 
+    }
+    &__content {
+        display: flex;
+    }
+    &__footer {
+        display: flex;
+       &-item{
+        width: 33%;
+        &:first-child {
+            margin-left: 47px;
+        }
+        &:last-child {
+            margin-top: 35px;
+        }
+        h4 {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #575757;
+           }
+        p {
+            @include nekstFont;
+            font-size: 54px;
+            line-height: 90%;
+            color: #575757;
+            margin-top: -10px;
+           }
+       }
+    }
+}

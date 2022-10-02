@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./gilroy/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('./gilroy/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./gilroy/Gilroy-Regular.woff2') format('woff2'),
+        url('./gilroy/Gilroy-Regular.woff') format('woff'),
+        url('./gilroy/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url('./nekst-black/Nekst-Black.eot');
+    src: local('Nekst Black'), local('Nekst-Black'),
+        url('./nekst-black/Nekst-Black.eot?#iefix') format('embedded-opentype'),
+        url('./nekst-black/Nekst-Black.woff2') format('woff2'),
+        url('./nekst-black/Nekst-Black.woff') format('woff'),
+        url('./nekst-black/Nekst-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

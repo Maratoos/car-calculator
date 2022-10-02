@@ -1,0 +1,52 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "price": 6000000,
+      "initialFee": 1020000,
+      "month": 60,
+      "lease": 41924680.18,
+      "monthPay": 199641.33
+    },
+    {
+      "id": 2,
+      "price": 6000000,
+      "initialFee": 1020000,
+      "month": 60,
+      "lease": 41924680.18,
+      "monthPay": 199641.33
+    },
+    {
+      "id": 3,
+      "price": 6000000,
+      "initialFee": 1020000,
+      "month": 60,
+      "lease": 41924680.18,
+      "monthPay": 199641.33
+    },
+    {
+      "price": 4791990,
+      "initialFee": 1820956.2,
+      "month": 19,
+      "lease": 14411093.412932014,
+      "monthPay": 216708.1716230378,
+      "id": 4
+    },
+    {
+      "price": 3151163,
+      "initialFee": 1607093.1300000001,
+      "month": 35,
+      "lease": 9457115.350938601,
+      "monthPay": 77200.94164031511,
+      "id": 5
+    },
+    {
+      "price": 1000000,
+      "initialFee": 100000,
+      "month": 1,
+      "lease": 3260250.0000000075,
+      "monthPay": 931500.0000000021,
+      "id": 6
+    }
+  ]
+}

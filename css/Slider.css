@@ -1,0 +1,91 @@
+@import url(../src/assets/fonts/fonts.scss);
+.calc__content-item {
+  width: 33.3%;
+  margin-right: 32px;
+}
+.calc__content-item p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #575757;
+  margin-bottom: 24px;
+}
+.calc__content-item:first-child {
+  margin-left: 44px;
+}
+.calc__content-item input[type=number]::-webkit-inner-spin-button,
+.calc__content-item input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.calc__content-item .input-summary {
+  display: flex;
+  justify-content: space-between;
+  background: #F3F3F4;
+  border-radius: 16px;
+}
+.calc__content-item .input-summary .none-percent-input {
+  outline: none;
+  background: #F3F3F4;
+  border-radius: 16px;
+  border: 0;
+  font-family: "Nekst";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  color: #575757;
+  width: 50%;
+  padding: 16px 0 16px 24px;
+}
+.calc__content-item .input-summary .none-percent-p {
+  font-family: "Nekst";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  color: #575757;
+  margin: 15px 24px 0 0;
+}
+.calc__content-item .input-summary .percent-input {
+  font-family: "Nekst";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 120%;
+  color: #575757;
+  outline: none;
+  background: #F3F3F4;
+  border-radius: 16px;
+  border: 0;
+  width: 50%;
+  padding: 19px 0 22px 0;
+  text-align: right;
+}
+.calc__content-item .input-summary .percent-p {
+  font-family: "Nekst";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  color: #575757;
+  margin: 15px 0 0 24px;
+}
+.calc__content-item .input-summary .percent-symbol {
+  font-family: "Nekst";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 120%;
+  color: #575757;
+  margin-right: 30px;
+}
+.calc__content-item .slider {
+  position: relative;
+  top: -15px;
+  left: 20px;
+  width: 90%;
+  color: #FF9514;
+}/*# sourceMappingURL=Slider.css.map */
