@@ -3,7 +3,7 @@ import "../../../css/Slider.css"
 import "../../../css/media.css"
 import Slider from '@mui/material/Slider';
 
-export const InputSlider = ({ title, min, max, setState, value, inputRight, percent, disabled}) => {
+export const InputSlider = ({ title, min, max, setState, value, inputRight, percent, disabled}) => { //все принимаемые деструктуризированные пропсы
 
   const handleInputChange = (e) => {
     setState(e.target.value)
@@ -13,7 +13,7 @@ export const InputSlider = ({ title, min, max, setState, value, inputRight, perc
     setState(newValue)
   }
 
-  const handleBlur = () => {
+  const handleBlur = () => { //если пользователь вводит некоректное значение то при клике мышкой вне инпута значение сбросится
     if (value < min) {
       setState(min)
     } else if (value > max) {
@@ -37,6 +37,7 @@ export const InputSlider = ({ title, min, max, setState, value, inputRight, perc
         />
         <p className='none-percent-p'>{inputRight}</p>
       </div>
+      {/* слайдер был взят из библиотеки MaterialUI */}
       <Slider
         disabled={disabled}
         value={value}
@@ -48,7 +49,8 @@ export const InputSlider = ({ title, min, max, setState, value, inputRight, perc
         size="small"
       />
     </div>
-    ) : (
+    ) : ( 
+      // здесь отрисовывается инпут по пропсу percent тот что в середине
       <div className="calc__content-item">
       <p>{title}</p>
       <div className="input-summary">
